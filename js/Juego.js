@@ -13,3 +13,4 @@ function mostrarpregunta(){
   document.getElementById("cuadro_1").innerHTML=preguntas[numAleatorio];
 }
 </script>
+<!--- aca ira el programa del juego --->
