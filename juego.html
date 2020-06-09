@@ -18,21 +18,36 @@
 <body>
     <div class="cuadro_g">
         <div class="cuadro_m">
+          <script src="js/Juego.js"></script>
+          <!-- Cuadro de preguntas -->
         <div class="cuadro_1">
         <p id="cuadro_1">
-          <script src="js/Juego.js"></script>
           <script>
-          document.write('Pregunta: '+pregunt());
+          document.write(pregunt());
           </script>
         </p>
         </div>
-        <div class="cuadro_2"><p><br><br>Correcto / incorrecto</p>;</div>
+        <!-- Cuadro de resultado -->
+        <div class="cuadro_2">
+          <p id="cuadro_2"><br><br>
+            <script>
+            document.write(iguales());
+            </script>
+          </p>
+        </div>
+        <!-- Cuadro de opciones -->
         <div class="cuadro_3"></div>
+        <!-- Cuadro de respuesta1 -->
         <div class="cuadro_4"><h3><br>Opción1</h3></div>
+        <!-- Cuadro de respuesta2 -->
         <div class="cuadro_5"><h3><br>Opción2</h3></div>
+        <!-- Cuadro de respuesta3 -->
         <div class="cuadro_6"><h3><br>Opción3</h3></div>
+        <!-- Cuadro de respuesta4 -->
         <div class="cuadro_7"><h3><br>Opción4</h3></div>
-        <div class="cuadro_8"><h2><br>siguiente</h2> ;</div>
+        <!-- Cuadro de siguiente pregunta -->
+        <div class="cuadro_8"><h2><br>Siguiente</h2> ;</div>
+        <!-- Cuadro de la esquina -->
         <div class="cuadro_9"></div>
         </div>
     </div>
