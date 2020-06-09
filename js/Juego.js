@@ -14,3 +14,5 @@ function mostrarpregunta(){
 }
 </script>
 <!--- aca ira el programa del juego --->
+<!--- pagina ejemplo de incrutacion de script de javascript --->
+<!--- http://mialtoweb.es/como-incluir-javascript-en-html/ --->
